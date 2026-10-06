@@ -6,6 +6,22 @@ A B2B AI Agent platform for detecting financial fraud patterns in transaction da
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.142-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## Demo
+
+![Swagger UI Overview](screenshots/swagger-ui-overview.png)
+
+*Interactive API documentation powered by Swagger UI.*
+
+![Split Invoicing Detected](screenshots/split-invoicing-detected.png)
+
+*AI Agent detecting **Split Invoicing** fraud pattern — three consecutive transactions to the same vendor within 10 minutes, each just below the approval threshold.*
+
+![Cash Swiping Detected](screenshots/cash-swiping-detected.png)
+
+*AI Agent detecting **Cash Swiping** fraud pattern — three identical ATM withdrawals within 5 minutes, with detailed reasoning.*
+
+---
+
 ## Problem Statement
 
 Fintech startups and accounting firms process thousands of transactions daily. Manual audit is impossible at scale, and traditional rule-based systems miss sophisticated fraud patterns like:
